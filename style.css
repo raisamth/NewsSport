@@ -1,0 +1,186 @@
+:root {
+  --black: black;
+  --blueNavy: #282a35;
+  --lightGreen: #d9eee1;
+  --lightYellow: #fff4a3;
+  --lightPink: #f3ecea;
+  --turqoise: #96d4d4;
+  --whiteBone: #e7e9eb;
+}
+
+*, html {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.bottom {
+    background-color: #282a35;
+}
+
+.bottom a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color:#000;
+    padding: 1.4rem 0;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: #4ca86f;
+}
+
+.blueNavy {
+  background-color: var(--blueNavy);
+}
+
+.whiteBone {
+  background-color: var(--whiteBone);
+}
+
+.searchButton {
+  background-color: #059862;
+  width: 7%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.searchForm {
+  border: none;
+  outline: none;
+  width: 40%;
+}
+
+.text-pink {
+  color: #ffc0c7;
+}
+
+.turqoise {
+  background-color: var(--turqoise);
+}
+
+.lightGreen {
+  background-color: var(--lightGreen);
+}
+
+.lightYellow {
+  background-color: var(--lightYellow);
+}
+
+.lightPink {
+  background-color: var(--lightPink);
+}
+
+.leftTitle {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.buttonYellow {
+  background-color: #fff4a3;
+}
+
+.buttonGreen {
+  background-color: #04aa6d;
+}
+
+.buttonGreen:hover {
+  background-color: #039f66;
+}
+
+.buttonYellow:hover {
+  background-color: rgb(254, 239, 130);
+}
+
+.buttonBlack {
+  background-color: #282a35;
+}
+
+.buttonBlack:hover {
+  background-color: #000;
+}
+
+.buttonWhite {
+  background-color: white;
+}
+
+.buttonWhite:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.buttonNavy {
+  background-color: var(--blueNavy);
+}
+
+.buttonNavy:hover {
+  background-color: black;
+}
+
+.buttonLightPink {
+  background-color: var(--lightPink);
+  transition: background-color 0.3s;
+}
+
+.buttonLightGreen {
+  background-color: var(--lightGreen);
+  transition: background-color 0.3s;
+}
+
+.buttonLightYellow {
+  background-color: var(--lightYellow);
+  transition: background-color 0.3s;
+}
+
+.buttonTurqoise {
+  background-color: var(--turqoise);
+  transition: background-color 0.3s;
+}
+
+.buttonWhiteBone {
+  background-color: var(--whiteBone);
+  transition: background-color 0.3s;
+}
+
+.buttonPink {
+  background-color: #ffc0c7;
+}
+
+.buttonLightPink:hover {
+  filter: brightness(0.9);
+}
+
+.buttonWhiteBone:hover, .buttonLightGreen:hover, .buttonLightYellow:hover, .buttonTurqoise:hover, .buttonPink:hover
+{
+  filter: brightness(1.1);
+}
+
+.fs-70 {
+  font-size: 70px;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+.iconCheck {
+  width: 20px;
+  margin: 0px 10px;
+}
+
+.text-freckle {
+  font-family: "Freckle Face", cursive;
+}
+
+.iocnSocmed {
+  color: var(--blueNavy);
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.iocnSocmed:hover {
+  color: var(--whiteBone);
+  background-color: var(--blueNavy);
+  padding: 8px 16px;
+}
